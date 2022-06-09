@@ -11,7 +11,15 @@ body {
     color: var(--text-color);
     font-size: var(--font-size);
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -35,11 +43,6 @@ p {
 
 .header {
     border-bottom: #ECECEC;
-    border: 1px solid #c5c5c5;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-
 }
 
 .btn-vse,
@@ -112,7 +115,7 @@ p {
 }
 
 .mainbtn-item {
-    padding: 0;
+    margin: 0;
 }
 
 .btn:not(:last-child) {
@@ -213,7 +216,7 @@ p {
 
 .hero-title {
 
-    margin: 0;
+    margin: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -222,8 +225,6 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-
-    padding-bottom: 30px;
 
 
 
@@ -325,14 +326,16 @@ p {
 .about-img {
     display: flex;
     margin: 0;
+    
 }
 
 
 .list-img:not(:last-child) {
 
     margin-right: 30px;
-    display: flex;
-
+    display: block;
+        max-width: 100%;
+        height: auto;
 }
 
 
@@ -421,7 +424,7 @@ p {
 /* _____________________________FOOTER_________________ */
 
 
-footer {
+.footer {
     background: #2f303a;
 }
 
@@ -458,7 +461,6 @@ footer {
 }
 
 .email-footer {
-    padding-bottom: 9px;
     display: block;
 }
 
@@ -607,7 +609,7 @@ footer {
     background-color: var(--btncolor-hover);
 }
 
-button {
+.button {
     border: none;
     cursor: pointer;
 }
@@ -616,14 +618,16 @@ button {
 .item-portfolio {
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #eeeeee;
     width: 270px;
-    height: 368px;
+   
 }
 
 
 .img-portfolio {
     width: 100%;
+    display: block;
+        max-width: 100%;
+        height: auto;
 }
 
 .item-portfolio:nth-child(3n) {
@@ -646,7 +650,9 @@ button {
 
 .text-div {
     padding: 20px 24px;
-    /* border: 1px solid #eeeeee; */
+    border-bottom: 1px solid var(--minor-bgc);
+        border-left: 1px solid var(--minor-bgc);
+        border-right: 1px solid var(--minor-bgc);
 
 }
 
