@@ -221,6 +221,7 @@ address {
 /* Principal section - Hero */
 
 .principal-section-title {
+    width: 1600;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -256,7 +257,6 @@ address {
 .overlay {
     background-color: var(--hero-bgc);
     max-width: 1600px;
-    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -328,16 +328,21 @@ address {
 }
 
 .container-features {
-    display: inline-block;
-    padding: 25px 100px;
+   width: 270px;
+    height: 120px;
     margin-bottom: 30px;
-    background-color: var(--background-color);
-    border-radius: 4px;
+    background: #f5f4fa;
+    border-radius: 4px;  
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
 }
 
 .features .icon-feat {
     width: 70px;
     height: 70px;
+
 }
 
 /* Tools */
