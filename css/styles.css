@@ -221,7 +221,8 @@ address {
 /* Principal section - Hero */
 
 .principal-section-title {
-    width: 1600;
+width: 969px;
+    margin: 0 auto 30px
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
